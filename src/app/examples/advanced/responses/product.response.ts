@@ -3,3 +3,7 @@ export interface ProductResponse {
   readonly title: string;
   readonly price: number;
 }
+
+export interface HasData<T> {
+  data: T;
+}
